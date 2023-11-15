@@ -32,8 +32,8 @@ const Navabar = () => {
                     
 
                 </div>
-                <div className='w-36 rounded-full'>
-                    <img className='rounded-full' src={two} alt="&" />
+                <div className='w-48 rounded-full'>
+                    <img className='rounded-full home-img' src={two} alt="&" />
                 </div>
             </div>
         </div>
