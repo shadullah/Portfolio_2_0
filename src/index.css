@@ -24,3 +24,11 @@ font-family: 'IBM Plex Mono', monospace;
     }
 }
 
+
+.example-container div {
+    /* width: 100px;
+	height: 10px;
+	border-left: 25x solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 25px solid #555; */
+  }
