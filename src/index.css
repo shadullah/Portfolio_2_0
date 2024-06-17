@@ -26,9 +26,9 @@ font-family: 'IBM Plex Mono', monospace;
 
 
 .example-container div {
-    /* width: 100px;
-	height: 10px;
+    width: 0;
+	height: 0;
 	border-left: 25x solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 25px solid #555; */
+	border-right: 25px solid transparent;
+	border-bottom:50px solid #555;
   }
