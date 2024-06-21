@@ -3,6 +3,7 @@ import two from "../images/crop.jpg";
 import { RiMailSendFill } from "react-icons/ri";
 import { ImLocation } from "react-icons/im";
 import { FaFacebookSquare, FaGithub, FaLinkedin } from "react-icons/fa";
+import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
   return (
@@ -59,9 +60,20 @@ const Banner = () => {
                 </h3>
               </div>
               <p className="text-6xl font-extrabold">Shadullah Sakib</p>
-              <h1 className="text-3xl font-medium">
-                I am a Full Stack Developer
-              </h1>
+              <TypeAnimation
+                sequence={[
+                  // Same substring at the start will only be typed once, initially
+                  "I am a Software Developer",
+                  1000,
+                  "I am a Full Stack Developer",
+                  1000,
+                  "I am a Beckend Developer",
+                  1000,
+                ]}
+                speed={50}
+                style={{ fontSize: "2em" }}
+                repeat={Infinity}
+              />
               <div>
                 <a
                   href="https://drive.google.com/file/d/1_cdjfbe5UMUBxIa6R_jvCFGppjPgaXpT/view"
