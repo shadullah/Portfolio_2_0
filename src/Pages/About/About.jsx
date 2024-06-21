@@ -1,5 +1,9 @@
 import { SiDependabot } from "react-icons/si";
 import "./About.css";
+import fullstack from "../../assets/full.png";
+import { MdOutlineScreenshotMonitor } from "react-icons/md";
+import { FaLaptopCode } from "react-icons/fa";
+import { BiSolidPaint } from "react-icons/bi";
 
 const About = () => {
   return (
@@ -39,7 +43,70 @@ const About = () => {
       </div>
 
       {/* what do i do section */}
-
+      <div className="my-12">
+        <div className="flex justify-between">
+          <div className="flex items-center bg-gray-700 w-1/2 m-2 p-6 space-x-4 rounded-lg">
+            <div>
+              <h3 className="text-3xl whitespace-nowrap text-gray-200">
+                Front-end Development
+              </h3>
+              <p className="text-sm mt-5 text-gray-300">
+                I do Frontend with React, NextJs, Tailwind CSS, Material UI and
+                More
+              </p>
+            </div>
+            <div className="bg-black rounded-lg p-4">
+              <MdOutlineScreenshotMonitor className="text-8xl text-blue-600" />
+            </div>
+          </div>
+          <div className="flex items-center bg-gray-700 w-1/2 m-2 p-6 space-x-4 rounded-lg">
+            <div>
+              <h3 className="text-3xl whitespace-nowrap text-gray-200">
+                Back-end Development
+              </h3>
+              <p className="text-sm mt-5 text-gray-300">
+                I do Backend with NodeJs, Django, Django-rest Framework,
+                Mongoose
+              </p>
+            </div>
+            <div className="bg-black rounded-lg p-4">
+              {/* <img className="rounded-lg w-44" src={fullstack} alt="#" /> */}
+              <FaLaptopCode className="text-8xl text-blue-600" />
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-between">
+          <div className="flex items-center bg-gray-700 w-1/2 m-2 p-6 space-x-4 rounded-lg">
+            <div>
+              <h3 className="text-3xl whitespace-nowrap text-gray-200">
+                Full Stack Development
+              </h3>
+              <p className="text-sm mt-5 text-gray-300">
+                Syncronizing Front-end and Back-end development is my
+                crackerjacking skill
+              </p>
+            </div>
+            <div className="bg-black rounded-lg p-4">
+              <img className="rounded-lg w-44" src={fullstack} alt="#" />
+              {/* <MdOutlineScreenshotMonitor className="text-8xl text-blue-600" /> */}
+            </div>
+          </div>
+          <div className="flex items-center bg-gray-700 w-1/2 m-2 p-6 space-x-4 rounded-lg">
+            <div>
+              <h3 className="text-3xl whitespace-nowrap text-gray-200">
+                Web Design
+              </h3>
+              <p className="text-sm mt-5 text-gray-300">
+                Designing is my one of the favorite. I love to Design Web Pages
+              </p>
+            </div>
+            <div className="bg-black rounded-lg p-4">
+              {/* <img className="rounded-lg w-44" src={fullstack} alt="#" /> */}
+              <BiSolidPaint className="text-8xl text-blue-600" />
+            </div>
+          </div>
+        </div>
+      </div>
       {/* Education section */}
 
       <div className="flex items-center space-x-2 my-12">

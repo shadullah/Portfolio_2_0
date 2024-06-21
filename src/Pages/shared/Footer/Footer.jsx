@@ -14,7 +14,7 @@ const Footer = () => {
       </svg>
       <p
         // style={{ color: "#060B0C" }}
-        className="text-gray-700 font-bold hover:text-red-600 py-6 text-center relative top-64"
+        className="text-gray-700 font-bold hover:text-cyan-600 py-6 text-center relative top-64"
       >
         Built & Designed By{" "}
         <span className="">
