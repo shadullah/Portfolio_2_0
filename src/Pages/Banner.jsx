@@ -63,10 +63,15 @@ const Banner = () => {
                 I am a Full Stack Developer
               </h1>
               <div>
-                <button className="flex items-center border-cyan-800 border-2 px-5 py-4 rounded-md text-cyan-400 mt-6 font-medium">
-                  <MdOutlineFileDownload className="mr-2" />
-                  Download Resume
-                </button>
+                <a
+                  href="https://drive.google.com/file/d/1_cdjfbe5UMUBxIa6R_jvCFGppjPgaXpT/view"
+                  target="blank"
+                >
+                  <button className="animated-button1 flex items-center border-cyan-800 border-2 px-5 py-4 rounded-md text-cyan-400 mt-6 font-medium">
+                    <MdOutlineFileDownload className="mr-2" />
+                    Download Resume
+                  </button>
+                </a>
               </div>
             </div>
           </div>
