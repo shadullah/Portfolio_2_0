@@ -1,6 +1,5 @@
 import { SiDependabot } from "react-icons/si";
 import "./About.css";
-import fullstack from "../../assets/full.png";
 import { MdOutlineScreenshotMonitor } from "react-icons/md";
 import { FaLaptopCode } from "react-icons/fa";
 import { BiSolidPaint } from "react-icons/bi";

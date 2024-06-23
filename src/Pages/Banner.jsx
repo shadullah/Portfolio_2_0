@@ -48,15 +48,24 @@ const Banner = () => {
           <div className="w-1/2">
             <div>
               <div className="flex text-3xl space-x-12 my-12">
-                <p>
-                  <FaFacebookSquare />
-                </p>
-                <p>
-                  <FaGithub />
-                </p>
-                <p>
-                  <FaLinkedin />
-                </p>
+                <a href="https://www.facebook.com/" target="blank">
+                  <button className=" hover:text-blue-400 transition duration-500">
+                    <FaFacebookSquare />
+                  </button>
+                </a>
+                <a href="https://github.com/shadullah" target="blank">
+                  <button className=" hover:text-blue-400 transition duration-500">
+                    <FaGithub />
+                  </button>
+                </a>
+                <a
+                  href="https://linkedin.com/in/shadullahsakib/"
+                  target="blank"
+                >
+                  <button className=" hover:text-blue-600 transition duration-500">
+                    <FaLinkedin />
+                  </button>
+                </a>
               </div>
             </div>
             <div className="space-y-4">
