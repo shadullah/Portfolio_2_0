@@ -41,7 +41,7 @@ const Contact = () => {
 
         <div className="my-12">
           <button
-            className="py-2 px-6 border-2 border-violet-400 text-violet-400 rounded hover:bg-violet-900 transition font-medium duration-500"
+            className="py-2 px-6 border-4 border-violet-400 text-violet-400 rounded hover:bg-violet-900 transition font-medium duration-500"
             onClick={toggleModal}
           >
             SAY HELLO
@@ -71,31 +71,40 @@ const Contact = () => {
             aria-modal="true"
             aria-labelledby="modal-headline"
           >
-            <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
-              <label className="font-medium text-gray-800">Name</label>
+            <div className="bg-violet-900 px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+              <label className="font-medium text-violet-200">Email</label>
               <input
                 type="text"
-                className="w-full outline-none rounded bg-gray-100 p-2 mt-2 mb-3"
+                placeholder="example@gmail.com"
+                className="w-full outline-none rounded bg-violet-900 border-b-2 border-violet-200 p-2 mt-2 mb-3"
               />
-              <label className="font-medium text-gray-800">Url</label>
+              <label className="font-medium text-violet-200">Subject</label>
               <input
                 type="text"
-                className="w-full outline-none rounded bg-gray-100 p-2 mt-2 mb-3"
+                placeholder="What do you want to say?"
+                className="w-full outline-none rounded bg-violet-900 border-b-2 border-violet-200 p-2 mt-2 mb-3"
+              />
+              <label className="font-medium text-violet-200">Message</label>
+              <textarea
+                type="text"
+                placeholder="Jot down your lovey dovey message here!!"
+                className="w-full outline-none rounded bg-violet-900 border-b-2 border-violet-200 p-2 mt-2 mb-3"
               />
             </div>
-            <div className="bg-gray-200 px-4 py-3 text-right">
+            <div className="bg-violet-900 px-4 py-3 text-center">
               <button
                 type="button"
-                className="py-2 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 mr-2"
+                className="py-2 px-4 bg-red-700 text-white rounded hover:bg-red-500 mr-2"
                 onClick={toggleModal}
               >
                 <i className="fas fa-times"></i> Cancel
               </button>
               <button
                 type="button"
-                className="py-2 px-4 bg-blue-500 text-white rounded font-medium hover:bg-blue-700 mr-2 transition duration-500"
+                className="py-2 px-4 bg-violet-500 text-white rounded font-medium hover:bg-violet-700 mr-2 transition duration-500"
               >
-                <i className="fas fa-plus"></i> Create
+                Submit
+                <i className="fas fa-arrow-right ml-2"></i>
               </button>
             </div>
           </div>
