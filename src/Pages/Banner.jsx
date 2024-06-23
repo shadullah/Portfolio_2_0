@@ -84,7 +84,7 @@ const Banner = () => {
               <div>
                 <button
                   onClick={handleDownloadClick}
-                  className="animated-button1 flex items-center border-cyan-800 border-2 px-5 py-4 rounded-md text-cyan-400 mt-6 font-medium"
+                  className="py-3 px-6 border-2 border-cyan-400 text-cyan-400 rounded hover:bg-cyan-900 transition font-medium duration-500 text-center cursor-pointer flex items-center"
                 >
                   <MdOutlineFileDownload className="mr-2" />
                   Download Resume
