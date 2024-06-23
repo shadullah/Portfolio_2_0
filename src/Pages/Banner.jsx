@@ -6,6 +6,13 @@ import { FaFacebookSquare, FaGithub, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
+  const handleDownloadClick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1_cdjfbe5UMUBxIa6R_jvCFGppjPgaXpT/view",
+      "_blank"
+    );
+  };
+
   return (
     <>
       <div className="h-screen max-w-[1200px] mx-auto">
@@ -75,15 +82,13 @@ const Banner = () => {
                 repeat={Infinity}
               />
               <div>
-                <a
-                  href="https://drive.google.com/file/d/1_cdjfbe5UMUBxIa6R_jvCFGppjPgaXpT/view"
-                  target="blank"
+                <button
+                  onClick={handleDownloadClick}
+                  className="animated-button1 flex items-center border-cyan-800 border-2 px-5 py-4 rounded-md text-cyan-400 mt-6 font-medium"
                 >
-                  <button className="animated-button1 flex items-center border-cyan-800 border-2 px-5 py-4 rounded-md text-cyan-400 mt-6 font-medium">
-                    <MdOutlineFileDownload className="mr-2" />
-                    Download Resume
-                  </button>
-                </a>
+                  <MdOutlineFileDownload className="mr-2" />
+                  Download Resume
+                </button>
               </div>
             </div>
           </div>

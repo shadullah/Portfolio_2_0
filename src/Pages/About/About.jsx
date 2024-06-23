@@ -4,6 +4,7 @@ import fullstack from "../../assets/full.png";
 import { MdOutlineScreenshotMonitor } from "react-icons/md";
 import { FaLaptopCode } from "react-icons/fa";
 import { BiSolidPaint } from "react-icons/bi";
+import { BsStack } from "react-icons/bs";
 
 const About = () => {
   return (
@@ -25,13 +26,14 @@ const About = () => {
           <br />
           <br />
           Fast-forward to today, and I’ve had the privilege of working at{" "}
-          <span className="text-cyan-400 font-bold">Greenie Web</span>. My main
+          <span className="text-green-400 font-bold">Greenie Web</span>. My main
           focus these days is building accessible, inclusive products and
           digital experiences for a variety of clients.
           <br />
           <br />I also recently started learning Docker which play vital role to
           build a web app using{" "}
-          <span className="text-cyan-400 font-bold">Node, Django & React</span>.
+          <span className="text-green-400 font-bold">Node, Django & React</span>
+          .
         </article>
       </div>
 
@@ -56,7 +58,7 @@ const About = () => {
               </p>
             </div>
             <div className="bg-black rounded-lg p-4">
-              <MdOutlineScreenshotMonitor className="text-8xl text-blue-600" />
+              <MdOutlineScreenshotMonitor className="text-8xl text-green-400" />
             </div>
           </div>
           <div className="flex items-center bg-gray-700 w-1/2 m-2 p-6 space-x-4 rounded-lg">
@@ -71,7 +73,7 @@ const About = () => {
             </div>
             <div className="bg-black rounded-lg p-4">
               {/* <img className="rounded-lg w-44" src={fullstack} alt="#" /> */}
-              <FaLaptopCode className="text-8xl text-blue-600" />
+              <FaLaptopCode className="text-8xl text-green-400" />
             </div>
           </div>
         </div>
@@ -87,8 +89,8 @@ const About = () => {
               </p>
             </div>
             <div className="bg-black rounded-lg p-4">
-              <img className="rounded-lg w-44" src={fullstack} alt="#" />
-              {/* <MdOutlineScreenshotMonitor className="text-8xl text-blue-600" /> */}
+              {/* <img className="rounded-lg w-44" src={fullstack} alt="#" /> */}
+              <BsStack className="text-8xl text-green-400" />
             </div>
           </div>
           <div className="flex items-center bg-gray-700 w-1/2 m-2 p-6 space-x-4 rounded-lg">
@@ -102,7 +104,7 @@ const About = () => {
             </div>
             <div className="bg-black rounded-lg p-4">
               {/* <img className="rounded-lg w-44" src={fullstack} alt="#" /> */}
-              <BiSolidPaint className="text-8xl text-blue-600" />
+              <BiSolidPaint className="text-8xl text-green-400" />
             </div>
           </div>
         </div>
