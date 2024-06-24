@@ -15,13 +15,9 @@ const ProjectLoad = ({ project, index }) => {
       >
         {isEven ? (
           <>
-            <div className="w-8/12 h-64 overflow-hidden relative shadow-pink-400/25 shadow-xl rounded-lg">
+            <div className="w-8/12 h-96 overflow-hidden relative shadow-pink-400/25 shadow-xl rounded-lg">
               <div className="h-full overflow-y-scroll scrollbar-hide">
-                <img
-                  src={project?.img} // Replace with your image URL
-                  alt="Scrollable"
-                  className="w-full"
-                />
+                <img src={project?.img} alt="Scrollable" className="w-full" />
               </div>
             </div>
 
@@ -31,7 +27,7 @@ const ProjectLoad = ({ project, index }) => {
               </p>
               <h2 className="text-3xl font-bold">{project.name}</h2>
               <p className="text-sm">{project.desc}</p>
-              <ul className=" shadow-xl shadow-pink-300/25 bg-gray-600/50 p-4 text-left text-sm">
+              <ul className=" shadow-lg shadow-pink-300/25 bg-gray-600/50 p-4 text-left text-md">
                 <li className="flex items-start">
                   {" "}
                   <span className="text-pink-400 text-3xl">
@@ -51,12 +47,10 @@ const ProjectLoad = ({ project, index }) => {
                   <span className="text-pink-400 text-3xl">
                     <RiArrowDropRightFill />
                   </span>
-                  <p>
-                    With github, continuous integration & development were made
-                  </p>
+                  <p>{project.three}</p>
                 </li>
               </ul>
-              <p className="text-xs mt-6">{project.techs}</p>
+              <p className="text-lg mt-6 p-3">{project.techs}</p>
               <div className="space-x-6">
                 <button className="text-blue-200">
                   <a href={project.client} title="Github" target="blank">
@@ -77,34 +71,32 @@ const ProjectLoad = ({ project, index }) => {
               <p className="font-medium text-sm text-pink-500">
                 Featured Project
               </p>
-              <h2 className="text-3xl font-bold">{project.name}</h2>
-              <p className="text-sm">{project.desc}</p>
-              <ul className="relative bg-gray-600/50 p-4 text-right text-sm shadow-xl shadow-pink-300/25">
+              <h2 className="text-3xl font-bold">{project?.name}</h2>
+              <p className="text-sm">{project?.desc}</p>
+              <ul className="relative bg-gray-600/50 p-4 text-right text-md shadow-lg shadow-pink-300/25">
                 <li className="flex items-start">
                   {" "}
                   <span className="text-pink-400 text-3xl">
                     <RiArrowDropRightFill />
                   </span>
-                  <p>{project.one}</p>
+                  <p>{project?.one}</p>
                 </li>
                 <li className="flex items-start">
                   {" "}
                   <span className="text-pink-400 text-3xl">
                     <RiArrowDropRightFill />
                   </span>
-                  <p>{project.two}</p>
+                  <p>{project?.two}</p>
                 </li>
                 <li className="flex items-start">
                   {" "}
                   <span className="text-pink-400 text-3xl">
                     <RiArrowDropRightFill />
                   </span>
-                  <p>
-                    With github, continuous integration & development were made
-                  </p>
+                  <p>{project?.three}</p>
                 </li>
               </ul>
-              <p className="text-xs mt-6">{project.techs}</p>
+              <p className="text-lg mt-6 p-3">{project.techs}</p>
               <div className="space-x-6">
                 <button className="text-blue-200">
                   <a href={project.client} title="Github" target="blank">
@@ -119,7 +111,7 @@ const ProjectLoad = ({ project, index }) => {
               </div>
             </div>
 
-            <div className="w-8/12 h-64 overflow-hidden relative shadow-xl shadow-pink-400/25 rounded-lg">
+            <div className="w-8/12 h-96 overflow-hidden relative shadow-xl shadow-pink-400/25 rounded-lg">
               <div className="h-full overflow-y-scroll scrollbar-hide">
                 <img
                   src={project?.img} // Replace with your image URL

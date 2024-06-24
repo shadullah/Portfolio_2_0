@@ -11,7 +11,7 @@ const Project = () => {
       </div>
       {/* PROJECT CARD ADDING */}
       <div className="p-16">
-        {projects.map((project, index) => (
+        {projects?.map((project, index) => (
           <ProjectLoad
             key={project.id}
             index={index}
