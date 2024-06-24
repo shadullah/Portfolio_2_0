@@ -14,7 +14,7 @@
       "three": "Search implementation, filter tasks based on priority and completeness of the task",
       "four": "Users can add review",
       "five": "Admin has access to adding products",
-      "techs": "html, css, Tailwind css, React, Firebase Authentication, ExpressJs, MongoDB, Heroku, React hook form, React Query, Stripe."
+      "techs": "Tailwind css, React, React hook form, Django, Django Rest Framwork, PostgreSQL"
     },
     {
       "id": 2,
