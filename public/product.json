@@ -21,7 +21,7 @@
       "one": "User Authentication, Dashboard, Editing Profile of own account",
       "two": "User, admin can do CRUD operations based on their individual Product",
       "three": "Search implementation, filter Products",
-      "techs": "Tailwind css, React, SwiperJs, Django, Django Rest Framwork"
+      "techs": "Tailwind css, React, SwiperJs, Django, Django Rest Framwork, PostgreSQL"
     },
     {
       "id": 3,
