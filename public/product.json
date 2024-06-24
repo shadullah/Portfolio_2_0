@@ -1,6 +1,23 @@
 [
     {
       "id": 1,
+      "name": "Work Notes",
+      "img": "https://i.ibb.co/998kRV2/work-notes-ss.png",
+      "ss1" : "https://i.ibb.co/GxDxp9d/image.png",
+      "ss2" : "https://i.ibb.co/sJXKcBd/image.png",
+      "desc": "Full stack project about Taking Notes",
+      "live": "https://work-notes-frontend.vercel.app/",
+      "server": "https://github.com/hexaalif/Homies-Manufacturer-website-server",
+      "client": "https://github.com/shadullah/work-notes-frontend",
+      "one": "User Authentication, Dashboard, Editing Profile of own account",
+      "two": "User, admin can do CRUD operations based on their individual task",
+      "three": "Search implementation, filter tasks based on priority and completeness of the task",
+      "four": "Users can add review",
+      "five": "Admin has access to adding products",
+      "techs": "html, css, Tailwind css, React, Firebase Authentication, ExpressJs, MongoDB, Heroku, React hook form, React Query, Stripe."
+    },
+    {
+      "id": 2,
       "name": "Homies",
       "img": "https://i.ibb.co/KGmb7q4/Screenshot-1.png",
       "ss1" : "https://i.ibb.co/GxDxp9d/image.png",
@@ -17,7 +34,7 @@
       "techs": "html, css, Tailwind css, React, Firebase Authentication, ExpressJs, MongoDB, Heroku, React hook form, React Query, Stripe."
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "SS-warehouse",
       "img": "https://i.ibb.co/grkrvGZ/Screenshot-2.png",
       "ss1" : "https://i.ibb.co/30JXQBS/image.png",
@@ -34,7 +51,7 @@
       "techs": "html, css, Bootstrap, React, Firebase, ExpressJs, MongoDB, Heroku."
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Dr-Sarkar",
       "img": "https://i.ibb.co/crcC8X6/Screenshot-3.png",
       "ss1" : "https://i.ibb.co/jz658XM/image.png",
@@ -51,7 +68,7 @@
       "techs": "html, css, Bootstrap, React, Firebase Authentication, React Router."
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Car Hunter",
       "img": "https://i.ibb.co/ZNvxmcJ/Screenshot-4.png",
       "ss1" : "https://i.ibb.co/H2CRNYx/image.png",
@@ -67,7 +84,7 @@
       "techs": "html, css, bootstrap, React, React Router, React Recharts."
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Influencer Gear",
       "img":"https://i.ibb.co/yq8Py2D/Screenshot-5.png" ,
       "ss1" : "https://i.ibb.co/85tXH0n/image.png",

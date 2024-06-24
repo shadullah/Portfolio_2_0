@@ -1,38 +1,80 @@
-import { useNavigate } from "react-router-dom";
+import { BsGithub } from "react-icons/bs";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+import "./ProjectLoad.css";
 
 // eslint-disable-next-line react/prop-types
-const ProjectLoad = ({ project }) => {
-  const { id } = project;
-  //   console.log(project);
-  let navigate = useNavigate();
-
+const ProjectLoad = ({ project, index }) => {
+  const isEven = index % 2 == 0;
   return (
     <div>
       <div
-        className="card bg-base-100 shadow-xl image-full"
+        className="my-6 bg-gray-700 p-6 flex"
         data-aos="flip-up"
         data-aos-duration="3000"
       >
-        <figure>
-          <img src={project?.img} alt="#" />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">{project.name}</h2>
-          <p>{project.desc}</p>
-          <div className="card-actions justify-end">
-            <button
-              onClick={() => navigate(`/${id}`)}
-              className="btn btn-warning"
-            >
-              Details
-            </button>
-            <button className="btn btn-warning">
-              <a href={project.live} target="blank">
-                Visit Site
-              </a>
-            </button>
-          </div>
-        </div>
+        {isEven ? (
+          <>
+            <div>
+              <div className="w-full h-64 overflow-hidden relative">
+                <div className="h-full overflow-y-scroll scrollbar-hide">
+                  <img
+                    src={project?.img} // Replace with your image URL
+                    alt="Scrollable"
+                    className="w-full"
+                  />
+                </div>
+              </div>
+              {/* <img className="w-96" src={project?.img} alt="#" /> */}
+            </div>
+            <div className="">
+              <h2 className="card-title">{project.name}</h2>
+              <p>{project.desc}</p>
+              <div className="card-actions justify-end">
+                <button className="">
+                  <a href={project.live} target="blank">
+                    <BsGithub className="text-2xl" />
+                  </a>
+                </button>
+                <button className="bg-gray-400">
+                  <a href={project.live} target="blank">
+                    <FaArrowUpRightFromSquare className="text-2xl" />
+                  </a>
+                </button>
+              </div>
+            </div>
+          </>
+        ) : (
+          <>
+            <div className="">
+              <h2 className="card-title">{project.name}</h2>
+              <p>{project.desc}</p>
+              <div className="card-actions justify-end">
+                <button className="">
+                  <a href={project.live} target="blank">
+                    <BsGithub className="text-2xl" />
+                  </a>
+                </button>
+                <button className="bg-gray-400">
+                  <a href={project.live} target="blank">
+                    <FaArrowUpRightFromSquare className="text-2xl" />
+                  </a>
+                </button>
+              </div>
+            </div>
+            <div>
+              <div className="w-full h-64 overflow-hidden relative">
+                <div className="h-full overflow-y-scroll scrollbar-hide">
+                  <img
+                    src={project?.img} // Replace with your image URL
+                    alt="Scrollable"
+                    className="w-full"
+                  />
+                </div>
+              </div>
+              {/* <img className="w-96" src={project?.img} alt="#" /> */}
+            </div>
+          </>
+        )}
       </div>
     </div>
   );

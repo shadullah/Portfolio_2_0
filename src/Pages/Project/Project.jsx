@@ -6,13 +6,17 @@ const Project = () => {
   return (
     <div className="">
       <div className="flex items-center space-x-2">
-        <h1 className="text-4xl mr-4">Projects</h1>
+        <h1 className="text-4xl mr-4">Some Things I’ve Built</h1>
         <div className="h-1 w-32 bg-green-400"></div>
       </div>
       {/* PROJECT CARD ADDING */}
-      <div className="grid sm:grd-cols-1 lg:grid-cols-2 gap-10 p-16">
-        {projects.map((project) => (
-          <ProjectLoad key={project.id} project={project}></ProjectLoad>
+      <div className="p-16">
+        {projects.map((project, index) => (
+          <ProjectLoad
+            key={project.id}
+            index={index}
+            project={project}
+          ></ProjectLoad>
         ))}
       </div>
     </div>
