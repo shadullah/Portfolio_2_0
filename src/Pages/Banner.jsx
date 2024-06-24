@@ -86,7 +86,7 @@ const Banner = () => {
                   1000,
                   "I am a Full Stack Developer",
                   1000,
-                  "I am a Beckend Developer",
+                  "I am a Backend Developer",
                   1000,
                 ]}
                 speed={50}
@@ -105,7 +105,7 @@ const Banner = () => {
             </div>
           </div>
           <div className="w-1/2 my-12">
-            <img className="home-img mx-auto w-96" src={two} alt="" />
+            <img className="rounded-full mx-auto w-96" src={two} alt="" />
           </div>
         </div>
       </div>
