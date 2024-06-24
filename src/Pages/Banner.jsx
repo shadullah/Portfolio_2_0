@@ -4,6 +4,7 @@ import { RiMailSendFill } from "react-icons/ri";
 import { ImLocation } from "react-icons/im";
 import { FaFacebookSquare, FaGithub, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import lgo from "../assets/logo.png";
 
 const Banner = () => {
   const handleDownloadClick = () => {
@@ -19,7 +20,9 @@ const Banner = () => {
         <div>
           <div className="my-2 flex justify-between items-center text-center">
             <div>
-              <h1 className="italic font-extrabold text-3xl">$</h1>
+              <h1 className="italic font-extrabold text-3xl">
+                <img className="w-16" src={lgo} alt="" />
+              </h1>
             </div>
             <div className="flex items-center">
               <div className="flex items-center space-x-4 mr-2">
