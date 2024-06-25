@@ -29,7 +29,7 @@ const Home = () => {
     <div>
       <Banner />
       <div className="max-w-[1200px] mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 mx-6 md:mx-0">
           <div
             onClick={() => setcurrent("Experience")}
             className="py-2 px-3 md:px-6 border-2 border-cyan-400 text-cyan-400 rounded hover:bg-cyan-900 transition font-medium duration-500 cursor-pointer text-center"
