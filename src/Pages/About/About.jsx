@@ -8,7 +8,7 @@ import { BsStack } from "react-icons/bs";
 const About = () => {
   return (
     <div>
-      <div className="flex items-center space-x-2">
+      <div className="flex items-center space-x-2 mx-6 md:mx-0">
         <h1 className="text-2xl md:text-4xl mr-4">About Me</h1>
         <div className="h-1 w-32 bg-green-400"></div>
       </div>
@@ -16,7 +16,7 @@ const About = () => {
         <div className="md:w-1/3 my-6 text-9xl flex justify-center text-gray-200">
           <SiDependabot />
         </div>
-        <article className="w-full text-sm md:text-base text-center md:text-end">
+        <article className="w-full text-xs md:text-base text-center md:text-end">
           Hello! My name is Shadullah and I enjoy creating things that live on
           the internet. My interest in web development started back in 2022 when
           the whole world got stucked with covid-19. Since then I am constantly
@@ -38,13 +38,13 @@ const About = () => {
 
       {/* what do i do section */}
 
-      <div className="flex items-center space-x-2 my-12">
+      <div className="flex items-center space-x-2 my-12 mx-6 md:mx-0">
         <h1 className="text-xl md:text-4xl mr-4">What Do I Do</h1>
         <div className="h-1 w-32 bg-green-400"></div>
       </div>
 
       {/* what do i do section */}
-      <div className="my-12">
+      <div className="my-12 mx-6 md:mx-0">
         <div className="block md:flex justify-between">
           <div className="flex flex-col-reverse md:flex-row items-center bg-gray-700 w-full md:w-1/2 m-2 p-6 space-x-4 rounded-lg">
             <div>
@@ -106,7 +106,7 @@ const About = () => {
       </div>
       {/* Education section */}
 
-      <div className="flex items-center space-x-2 my-12">
+      <div className="flex items-center space-x-2 my-12 mx-6 md:mx-0">
         <h1 className="text-4xl mr-4">Education</h1>
         <div className="h-1 w-32 bg-green-400"></div>
       </div>
