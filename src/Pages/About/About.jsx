@@ -9,14 +9,14 @@ const About = () => {
   return (
     <div>
       <div className="flex items-center space-x-2">
-        <h1 className="text-4xl mr-4">About Me</h1>
+        <h1 className="text-2xl md:text-4xl mr-4">About Me</h1>
         <div className="h-1 w-32 bg-green-400"></div>
       </div>
-      <div className="flex items-center justify-between my-12">
-        <div className="w-1/3 text-9xl flex justify-center text-gray-200">
+      <div className="block md:flex items-center justify-between my-12 mx-3 md:mx-0">
+        <div className="md:w-1/3 my-6 text-9xl flex justify-center text-gray-200">
           <SiDependabot />
         </div>
-        <article className="w-full text-end">
+        <article className="w-full text-sm md:text-base text-center md:text-end">
           Hello! My name is Shadullah and I enjoy creating things that live on
           the internet. My interest in web development started back in 2022 when
           the whole world got stucked with covid-19. Since then I am constantly
@@ -39,16 +39,16 @@ const About = () => {
       {/* what do i do section */}
 
       <div className="flex items-center space-x-2 my-12">
-        <h1 className="text-4xl mr-4">What Do I Do</h1>
+        <h1 className="text-xl md:text-4xl mr-4">What Do I Do</h1>
         <div className="h-1 w-32 bg-green-400"></div>
       </div>
 
       {/* what do i do section */}
       <div className="my-12">
-        <div className="flex justify-between">
-          <div className="flex items-center bg-gray-700 w-1/2 m-2 p-6 space-x-4 rounded-lg">
+        <div className="block md:flex justify-between">
+          <div className="flex flex-col-reverse md:flex-row items-center bg-gray-700 w-full md:w-1/2 m-2 p-6 space-x-4 rounded-lg">
             <div>
-              <h3 className="text-3xl whitespace-nowrap text-gray-200">
+              <h3 className="text-xl md:text-3xl text-gray-200">
                 Front-end Development
               </h3>
               <p className="text-sm mt-5 text-gray-300">
@@ -56,13 +56,13 @@ const About = () => {
                 More
               </p>
             </div>
-            <div className="bg-black rounded-lg p-4">
+            <div className="bg-black rounded-lg p-4 my-4 md:my-0">
               <MdOutlineScreenshotMonitor className="text-8xl text-green-400" />
             </div>
           </div>
-          <div className="flex items-center bg-gray-700 w-1/2 m-2 p-6 space-x-4 rounded-lg">
+          <div className="flex flex-col-reverse md:flex-row items-center bg-gray-700 w-full md:w-1/2 m-2 p-6 space-x-4 rounded-lg">
             <div>
-              <h3 className="text-3xl whitespace-nowrap text-gray-200">
+              <h3 className="text-xl md:text-3xl text-gray-200">
                 Back-end Development
               </h3>
               <p className="text-sm mt-5 text-gray-300">
@@ -70,33 +70,29 @@ const About = () => {
                 Mongoose
               </p>
             </div>
-            <div className="bg-black rounded-lg p-4">
+            <div className="bg-black rounded-lg p-4  my-4 md:my-0">
               {/* <img className="rounded-lg w-44" src={fullstack} alt="#" /> */}
               <FaLaptopCode className="text-8xl text-green-400" />
             </div>
           </div>
         </div>
-        <div className="flex justify-between">
-          <div className="flex items-center bg-gray-700 w-1/2 m-2 p-6 space-x-4 rounded-lg">
+        <div className="block md:flex justify-between">
+          <div className="flex flex-col-reverse md:flex-row items-center bg-gray-700 w-full md:w-1/2 m-2 p-6 space-x-4 rounded-lg">
             <div>
-              <h3 className="text-3xl whitespace-nowrap text-gray-200">
-                Full Stack Development
-              </h3>
+              <h3 className="text-3xl text-gray-200">Full Stack Development</h3>
               <p className="text-sm mt-5 text-gray-300">
                 Syncronizing Front-end and Back-end development is my
                 crackerjacking skill
               </p>
             </div>
-            <div className="bg-black rounded-lg p-4">
+            <div className="bg-black rounded-lg p-4  my-4 md:my-0">
               {/* <img className="rounded-lg w-44" src={fullstack} alt="#" /> */}
               <BsStack className="text-8xl text-green-400" />
             </div>
           </div>
-          <div className="flex items-center bg-gray-700 w-1/2 m-2 p-6 space-x-4 rounded-lg">
+          <div className="flex items-center bg-gray-700 w-full md:w-1/2 m-2 p-6 space-x-4 rounded-lg">
             <div>
-              <h3 className="text-3xl whitespace-nowrap text-gray-200">
-                Web Design
-              </h3>
+              <h3 className="text-3xl text-gray-200">Web Design</h3>
               <p className="text-sm mt-5 text-gray-300">
                 Designing is my one of the favorite. I love to Design Web Pages
               </p>
@@ -115,22 +111,22 @@ const About = () => {
         <div className="h-1 w-32 bg-green-400"></div>
       </div>
       <div>
-        <div className="rightbox">
+        <div className="rightbox pl-2">
           <div className="rb-container">
             <ul className="rb">
               <li className="">
-                <div className=" text-green-400 text-2xl">
+                <div className=" text-green-400 text-xs md:text-2xl">
                   B.Sc in Department of Mathematics
                 </div>
-                <div className="item-title text-4xl whitespace-nowrap">
+                <div className="item-title text-xl md:text-4xl">
                   Shahjalal University of Science & Technology
                 </div>
               </li>
               <li className="">
-                <div className="text-green-400 text-2xl">
+                <div className="text-green-400 text-xs md:text-2xl">
                   Intermediate Science
                 </div>
-                <div className="item-title text-4xl">
+                <div className="item-title text-xl md:text-4xl">
                   BAF Shaheen College Dhaka
                 </div>
               </li>
