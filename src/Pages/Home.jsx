@@ -29,47 +29,47 @@ const Home = () => {
     <div>
       <Banner />
       <div className="max-w-[1200px] mx-auto">
-        <div className="grid grid-cols-4 gap-4 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
           <div
             onClick={() => setcurrent("Experience")}
-            className="py-2 px-6 border-2 border-cyan-400 text-cyan-400 rounded hover:bg-cyan-900 transition font-medium duration-500 cursor-pointer text-center"
+            className="py-2 px-3 md:px-6 border-2 border-cyan-400 text-cyan-400 rounded hover:bg-cyan-900 transition font-medium duration-500 cursor-pointer text-center"
           >
             <span className="flex justify-center">
-              <TbFileStack className="text-3xl" />
+              <TbFileStack className="md:text-3xl" />
             </span>
 
-            <button className="text-2xl">Experience</button>
+            <button className="md:text-2xl">Experience</button>
           </div>
           <div
             onClick={() => setcurrent("About")}
-            className="py-2 px-6 border-2 border-green-400 text-green-400 rounded hover:bg-green-900 transition font-medium duration-500 text-center cursor-pointer"
+            className="py-2 px-3 md:px-6 border-2 border-green-400 text-green-400 rounded hover:bg-green-900 transition font-medium duration-500 text-center cursor-pointer"
           >
             <span className="flex justify-center">
-              <MdOutlinePersonOutline className="text-3xl" />
+              <MdOutlinePersonOutline className="md:text-3xl" />
             </span>
 
-            <button className="text-2xl">About</button>
+            <button className="md:text-2xl">About</button>
           </div>
 
           <div
             onClick={() => setcurrent("Project")}
-            className="py-2 px-6 border-2 border-pink-400 text-pink-400 rounded hover:bg-pink-900 transition font-medium duration-500 text-center cursor-pointer"
+            className="py-2 px-3 md:px-6 border-2 border-pink-400 text-pink-400 rounded hover:bg-pink-900 transition font-medium duration-500 text-center cursor-pointer"
           >
             <span className="flex justify-center">
-              <LuListTodo className="text-3xl" />
+              <LuListTodo className="md:text-3xl" />
             </span>
 
-            <button className="text-2xl">Projects</button>
+            <button className="md:text-2xl">Projects</button>
           </div>
           <div
             onClick={() => setcurrent("Contact")}
-            className="py-2 px-6 border-2 border-violet-400 text-violet-400 rounded hover:bg-violet-900 transition font-medium duration-500 text-center cursor-pointer"
+            className="py-2 px-3 md:px-6 border-2 border-violet-400 text-violet-400 rounded hover:bg-violet-900 transition font-medium duration-500 text-center cursor-pointer"
           >
             <span className="flex justify-center">
-              <SiImessage className="text-3xl" />
+              <SiImessage className="md:text-3xl" />
             </span>
 
-            <button className="text-2xl">Contact</button>
+            <button className="md:text-2xl">Contact</button>
           </div>
         </div>
         <div>{loadCompo()}</div>

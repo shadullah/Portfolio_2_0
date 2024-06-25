@@ -18,13 +18,13 @@ const Banner = () => {
     <>
       <div className="h-screen max-w-[1200px] mx-auto">
         <div>
-          <div className="my-2 flex justify-between items-center text-center">
+          <div className="my-2 block md:flex justify-between items-center text-center">
             <div>
               <h1 className="italic font-extrabold text-3xl">
                 <img className="w-16" src={lgo} alt="" />
               </h1>
             </div>
-            <div className="flex items-center">
+            <div className="hidden md:flex items-center">
               <div className="flex items-center space-x-4 mr-2">
                 <span className="text-xl text-pink-400">
                   <MdPhoneIphone />
@@ -47,10 +47,10 @@ const Banner = () => {
           </div>
           {/* <hr /> */}
         </div>
-        <div className="flex justify-between items-center my-12">
-          <div className="w-1/2">
+        <div className=" text-center block md:flex justify-between items-center my-12">
+          <div className="w-full md:w-1/2">
             <div>
-              <div className="flex text-3xl space-x-12 my-12">
+              <div className="flex justify-center text-xl md:text-3xl space-x-12 my-12">
                 <a href="https://www.facebook.com/" target="blank">
                   <button className=" hover:text-blue-400 transition duration-500">
                     <FaFacebookSquare />
@@ -71,17 +71,17 @@ const Banner = () => {
                 </a>
               </div>
             </div>
-            <div className="space-y-4">
-              <div className="flex items-center space-x-3">
-                {/* <div className="h-1 w-20 bg-gray-500"></div> */}
-                <h3 className="text-cyan-400 text-xl">
+            <div className="space-y-8">
+              <div className="">
+                <h3 className="text-cyan-400 text-sm md:text-xl">
                   Hi&#128075;, my name is,
                 </h3>
               </div>
-              <p className="text-6xl font-extrabold">Shadullah Sakib</p>
+              <p className="text-2xl md:text-6xl font-extrabold">
+                Shadullah Sakib
+              </p>
               <TypeAnimation
                 sequence={[
-                  // Same substring at the start will only be typed once, initially
                   "I am a Software Developer",
                   1000,
                   "I am a Full Stack Developer",
@@ -90,13 +90,13 @@ const Banner = () => {
                   1000,
                 ]}
                 speed={50}
-                style={{ fontSize: "2em" }}
+                className="text-xs md:text-3xl"
                 repeat={Infinity}
               />
               <div>
                 <button
                   onClick={handleDownloadClick}
-                  className="py-3 px-6 border-2 border-cyan-400 text-cyan-400 rounded hover:bg-cyan-900 transition font-medium duration-500 text-center cursor-pointer flex items-center"
+                  className="mx-auto py-3 px-2 md:px-6 border-2 border-cyan-400 text-cyan-400 rounded hover:bg-cyan-900 transition font-medium duration-500 text-center cursor-pointer flex items-center my-6"
                 >
                   <MdOutlineFileDownload className="mr-2" />
                   Download Resume
@@ -104,8 +104,12 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/2 my-12">
-            <img className="rounded-full mx-auto w-96" src={two} alt="" />
+          <div className="w-full md:w-1/2">
+            <img
+              className="rounded-full mx-auto w-48 md:w-96"
+              src={two}
+              alt=""
+            />
           </div>
         </div>
       </div>
