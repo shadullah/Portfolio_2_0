@@ -30,10 +30,12 @@ const Contact = () => {
   };
   return (
     <div>
-      <div className="w-1/2 mx-auto my-24 text-center">
-        <h1 className="text-5xl font-bold text-gray-100">Get In Touch</h1>
+      <div className="w-full md:w-1/2 mx-auto my-24 text-center">
+        <h1 className="text-3xl md:text-5xl font-bold text-gray-100">
+          Get In Touch
+        </h1>
 
-        <p className="py-6 text-gray-400">
+        <p className="mx-6 md:mx-0 text-xs text-center md:text-lg py-6 text-gray-400">
           I’m currently looking for new opportunities, my inbox is always open.
           Whether you have a question or just want to say hi, I’ll try my best
           to get back to you!
