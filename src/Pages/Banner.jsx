@@ -77,7 +77,7 @@ const Banner = () => {
                   Hi&#128075;, my name is,
                 </h3>
               </div>
-              <p className="text-2xl md:text-6xl font-extrabold">
+              <p className="text-2xl md:text-6xl font-extrabold pb-6">
                 Shadullah Sakib
               </p>
               <TypeAnimation
