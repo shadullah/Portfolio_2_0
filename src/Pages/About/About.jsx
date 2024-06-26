@@ -70,7 +70,7 @@ const About = () => {
                 Mongoose
               </p>
             </div>
-            <div className="bg-black rounded-lg p-4  my-4 md:my-0">
+            <div className="bg-black rounded-lg p-4 my-4 md:my-0">
               {/* <img className="rounded-lg w-44" src={fullstack} alt="#" /> */}
               <FaLaptopCode className="text-8xl text-green-400" />
             </div>
@@ -79,7 +79,9 @@ const About = () => {
         <div className="block md:flex justify-between">
           <div className="flex flex-col-reverse md:flex-row items-center bg-gray-700 w-full md:w-1/2 m-2 p-6 space-x-4 rounded-lg">
             <div>
-              <h3 className="text-3xl text-gray-200">Full Stack Development</h3>
+              <h3 className="text-xl md:text-3xl text-gray-200">
+                Full Stack Development
+              </h3>
               <p className="text-sm mt-5 text-gray-300">
                 Syncronizing Front-end and Back-end development is my
                 crackerjacking skill
@@ -90,14 +92,14 @@ const About = () => {
               <BsStack className="text-8xl text-green-400" />
             </div>
           </div>
-          <div className="flex items-center bg-gray-700 w-full md:w-1/2 m-2 p-6 space-x-4 rounded-lg">
+          <div className="flex flex-col-reverse md:flex-row items-center bg-gray-700 w-full md:w-1/2 m-2 p-6 space-x-4 rounded-lg">
             <div>
-              <h3 className="text-3xl text-gray-200">Web Design</h3>
+              <h3 className="text-xl md:text-3xl text-gray-200">Web Design</h3>
               <p className="text-sm mt-5 text-gray-300">
                 Designing is my one of the favorite. I love to Design Web Pages
               </p>
             </div>
-            <div className="bg-black rounded-lg p-4">
+            <div className="bg-black rounded-lg p-4 my-4 md:my-0">
               {/* <img className="rounded-lg w-44" src={fullstack} alt="#" /> */}
               <BiSolidPaint className="text-8xl text-green-400" />
             </div>
