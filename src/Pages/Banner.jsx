@@ -1,4 +1,8 @@
-import { MdOutlineFileDownload, MdPhoneIphone } from "react-icons/md";
+import {
+  MdDarkMode,
+  MdOutlineFileDownload,
+  MdPhoneIphone,
+} from "react-icons/md";
 import two from "../images/crop.jpg";
 import { RiMailSendFill } from "react-icons/ri";
 import { ImLocation } from "react-icons/im";
@@ -43,6 +47,9 @@ const Banner = () => {
                 </span>
                 <p className="text-xs">Sylhet, Bangladesh</p>
               </div>
+              <span className="text-3xl text-white">
+                <MdDarkMode />
+              </span>
             </div>
           </div>
           {/* <hr /> */}
