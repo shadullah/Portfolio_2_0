@@ -1,13 +1,25 @@
-import { FaBootstrap, FaReact } from "react-icons/fa";
+import { FaBootstrap, FaNodeJs, FaReact } from "react-icons/fa";
+import { IoLogoFirebase } from "react-icons/io5";
 import { RiNextjsFill } from "react-icons/ri";
-import { SiTailwindcss } from "react-icons/si";
+import {
+  SiAppwrite,
+  SiDjango,
+  SiExpress,
+  SiJsonwebtokens,
+  SiMongodb,
+  SiMysql,
+  SiPostgresql,
+  SiTailwindcss,
+} from "react-icons/si";
 
 const Skills = () => {
   return (
     <div>
-      <div className="languages block md:flex justify-between items-center m-3 space-x-6">
+      <div className="languages block md:flex justify-between items-center mb-12 space-x-6">
         <div className="w-1/2 flex justify-center items-center p-12">
-          <p className="text-center text-5xl font-bold text-white">Languages</p>
+          <p className="text-center text-5xl font-bold dark:text-white text-gray-800">
+            Languages
+          </p>
         </div>
         <div className="w-1/2 space-y-4">
           <div className="block md:flex justify-between space-x-4 text-center text-white">
@@ -35,7 +47,7 @@ const Skills = () => {
       </div>
 
       {/* frontend start */}
-      <div className="frontend block md:flex justify-between items-center m-3 space-x-6">
+      <div className="frontend block md:flex justify-between items-center m-12 space-x-6">
         <div className="w-1/2 space-y-4">
           <div>
             <div className="flex items-center space-x-3 mb-3 ">
@@ -106,7 +118,144 @@ const Skills = () => {
           </div>
         </div>
         <div className="w-1/2 flex justify-center items-center p-12">
-          <p className="text-center text-7xl font-bold text-white">Frontend</p>
+          <p className="text-center text-7xl font-bold dark:text-white text-gray-800">
+            Frontend
+          </p>
+        </div>
+      </div>
+
+      {/* backend skills */}
+      <div className="frontend block md:flex justify-between items-center my-12 space-x-6">
+        <div className="w-1/2 flex justify-center items-center p-12">
+          <p className="text-center text-7xl font-bold dark:text-white text-gray-800">
+            Backend
+          </p>
+        </div>
+        <div className="w-1/2 space-y-4">
+          <div>
+            <div className="flex items-center space-x-3 mb-3 ">
+              <SiDjango className="text-4xl font-extrabold" />
+              <p className="font-bold">Django</p>
+            </div>
+            <div className="bg-gray-400 rounded-md">
+              <div className="bg-lime-400 rounded-md w-60 md:w-[550px] text-lime-800 font-bold text-right">
+                85%
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div className="flex items-center space-x-3 mb-3 ">
+              <SiDjango className="text-4xl font-extrabold" />
+              <p className="font-bold">Django Rest Framwork</p>
+            </div>
+            <div className="bg-gray-400 rounded-md">
+              <div className="bg-green-400 w-52 md:w-[550px] rounded-md text-green-800 font-bold text-right">
+                80%
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="flex items-center space-x-3 mb-3 ">
+              <FaNodeJs className="text-4xl font-extrabold" />
+              <p className="font-bold">NodeJs</p>
+            </div>
+            <div className="bg-gray-400 rounded-md">
+              <div className="bg-lime-400 w-44 md:w-[410px] rounded-md text-lime-800 font-bold text-right">
+                65%
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="flex items-center space-x-3 mb-3 ">
+              <SiExpress className="text-4xl font-extrabold" />
+              <p className="font-bold">Express Js</p>
+            </div>
+            <div className="bg-gray-400 rounded-md">
+              <div className="bg-gray-600 w-44 md:w-[550px] rounded-md text-gray-800 font-bold text-right">
+                80%
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="flex items-center space-x-3 mb-3 ">
+              <IoLogoFirebase className="text-4xl font-extrabold" />
+              <p className="font-bold">Firebase</p>
+            </div>
+            <div className="bg-gray-400 rounded-md">
+              <div className="bg-yellow-400 w-44 md:w-[480px] rounded-md text-yellow-800 font-bold text-right">
+                70%
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="flex items-center space-x-3 mb-3 ">
+              <SiAppwrite className="text-4xl font-extrabold" />
+              <p className="font-bold">Appwrite</p>
+            </div>
+            <div className="bg-gray-400 rounded-md">
+              <div className="bg-pink-400 w-44 md:w-[480px] rounded-md text-pink-800 font-bold text-right">
+                70%
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="flex items-center space-x-3 mb-3 ">
+              <SiJsonwebtokens className="text-4xl font-extrabold" />
+              <p className="font-bold">JWT</p>
+            </div>
+            <div className="bg-gray-400 rounded-md">
+              <div className="bg-gray-900 w-44 md:w-[480px] rounded-md text-gray-300 font-bold text-right">
+                70%
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* database start */}
+      <div className="frontend block md:flex justify-between items-center m-12 space-x-6">
+        <div className="w-1/2 space-y-4">
+          <div>
+            <div className="flex items-center space-x-3 mb-3 ">
+              <SiPostgresql className="text-4xl font-extrabold" />
+
+              <p className="font-bold">PostgreSQL</p>
+            </div>
+            <div className="bg-gray-400 rounded-md">
+              <div className="bg-sky-400 w-44 md:w-[410px] rounded-md text-sky-800 font-bold text-right">
+                65%
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="flex items-center space-x-3 mb-3 ">
+              <SiMysql className="text-4xl font-extrabold" />
+
+              <p className="font-bold">MySql</p>
+            </div>
+            <div className="bg-gray-400 rounded-md">
+              <div className="bg-blue-400 w-44 md:w-[410px] rounded-md text-blue-800 font-bold text-right">
+                65%
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="flex items-center space-x-3 mb-3 ">
+              <SiMongodb className="text-4xl font-extrabold" />
+              <p className="font-bold">MongoDB</p>
+            </div>
+            <div className="bg-gray-400 rounded-md">
+              <div className="bg-green-400 rounded-md w-44 md:w-[410px] text-green-800 font-bold text-right">
+                65%
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-1/2 flex justify-center items-center p-12">
+          <p className="text-center text-7xl font-bold dark:text-white text-gray-800">
+            Database
+          </p>
         </div>
       </div>
     </div>

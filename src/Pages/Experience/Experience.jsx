@@ -1,7 +1,4 @@
-import { FaNodeJs } from "react-icons/fa";
-import { IoLogoCss3, IoLogoJavascript, IoLogoPython } from "react-icons/io";
 import { RiArrowDropRightFill } from "react-icons/ri";
-import { SiDjango, SiMongodb, SiPostgresql } from "react-icons/si";
 import Skills from "./Skills";
 
 const Experience = () => {
@@ -65,105 +62,6 @@ const Experience = () => {
         <div className="h-1 w-32 bg-cyan-400"></div>
       </div>
       <Skills />
-      <div className="my-12 block md:flex items-center">
-        <div className="w-full md:w-1/2 m-2 md:m-6 space-y-4">
-          <div>
-            <div className="flex items-center space-x-3 mb-3 ">
-              <IoLogoJavascript className="text-4xl font-extrabold" />
-              <p className="font-bold">Javascript</p>
-            </div>
-            <div className="bg-gray-400 rounded-md">
-              <div className="bg-cyan-400 rounded-md w-60 md:w-[480px] text-cyan-800 font-bold text-right">
-                85%
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div className="flex items-center space-x-3 mb-3 ">
-              <IoLogoCss3 className="text-4xl font-extrabold" />
-              <p className="font-bold">CSS</p>
-            </div>
-            <div className="bg-gray-400 rounded-md">
-              <div className="bg-violet-400 rounded-md w-60 md:w-[510px] text-violet-800 font-bold text-right">
-                90%
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="flex items-center space-x-3 mb-3 ">
-              <SiMongodb className="text-4xl font-extrabold" />
-              <p className="font-bold">MongoDB</p>
-            </div>
-            <div className="bg-gray-400 rounded-md">
-              <div className="bg-purple-400 rounded-md w-44 md:w-[410px] text-purple-800 font-bold text-right">
-                65%
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="w-full md:w-1/2 m-2 md:m-6 space-y-4">
-          <div>
-            <div className="flex items-center space-x-3 mb-3 ">
-              <IoLogoPython className="text-4xl font-extrabold" />
-              <p className="font-bold">Python</p>
-            </div>
-            <div className="bg-gray-400 rounded-md">
-              <div className="bg-green-400 rounded-md w-56 md:w-[450px] text-green-800 font-bold text-right">
-                80%
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="flex items-center space-x-3 mb-3 ">
-              <SiDjango className="text-4xl font-extrabold" />
-              <p className="font-bold">Django</p>
-            </div>
-            <div className="bg-gray-400 rounded-md">
-              <div className="bg-yellow-400 rounded-md w-60 md:w-[480px] text-yellow-800 font-bold text-right">
-                85%
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div className="flex items-center space-x-3 mb-3 ">
-              <SiDjango className="text-4xl font-extrabold" />
-              <p className="font-bold">Django Rest Framwork</p>
-            </div>
-            <div className="bg-gray-400 rounded-md">
-              <div className="bg-cyan-400 w-52 md:w-[440px] rounded-md text-cyan-800 font-bold text-right">
-                75%
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="flex items-center space-x-3 mb-3 ">
-              <FaNodeJs className="text-4xl font-extrabold" />
-
-              <p className="font-bold">NodeJs</p>
-            </div>
-            <div className="bg-gray-400 rounded-md">
-              <div className="bg-blue-400 w-44 md:w-[410px] rounded-md text-blue-800 font-bold text-right">
-                65%
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="flex items-center space-x-3 mb-3 ">
-              <SiPostgresql className="text-4xl font-extrabold" />
-
-              <p className="font-bold">PostgreSQL</p>
-            </div>
-            <div className="bg-gray-400 rounded-md">
-              <div className="bg-sky-400 w-44 md:w-[410px] rounded-md text-sky-800 font-bold text-right">
-                65%
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
