@@ -258,6 +258,24 @@ const Skills = () => {
           </p>
         </div>
       </div>
+
+      {/* tools used */}
+      <div className="py-12">
+        <div className=" flex justify-center items-center p-12">
+          <p className="text-center text-5xl font-bold dark:text-white text-gray-800">
+            Tools
+          </p>
+        </div>
+        <div className="flex justify-between">
+          <p className="font-bold text-3xl">Cloudinary</p>
+          <p className="font-bold text-3xl">Github</p>
+          <p className="font-bold text-3xl">Vs Code</p>
+          <p className="font-bold text-3xl">AWS</p>
+          <p className="font-bold text-3xl">Vercel</p>
+          <p className="font-bold text-3xl">Render</p>
+          <p className="font-bold text-3xl">Netlify</p>
+        </div>
+      </div>
     </div>
   );
 };
