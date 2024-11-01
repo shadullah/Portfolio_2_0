@@ -1,4 +1,4 @@
-import { FaNodeJs, FaReact } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
 import { IoLogoCss3, IoLogoJavascript, IoLogoPython } from "react-icons/io";
 import { RiArrowDropRightFill } from "react-icons/ri";
 import {
@@ -7,6 +7,7 @@ import {
   SiPostgresql,
   SiTailwindcss,
 } from "react-icons/si";
+import Skills from "./Skills";
 
 const Experience = () => {
   return (
@@ -68,20 +69,9 @@ const Experience = () => {
         <h1 className="text-2xl md:text-4xl mr-2 md:mr-4">Working Skills</h1>
         <div className="h-1 w-32 bg-cyan-400"></div>
       </div>
+      <Skills />
       <div className="my-12 block md:flex items-center">
         <div className="w-full md:w-1/2 m-2 md:m-6 space-y-4">
-          <div>
-            <div className="flex items-center space-x-3 mb-3 ">
-              <FaReact className="text-4xl font-extrabold" />
-              <p className="font-bold">ReactJs</p>
-            </div>
-            <div className="bg-gray-400 rounded-md">
-              <div className="bg-lime-400 rounded-md w-56 md:w-[450px] text-lime-800 font-bold text-right">
-                80%
-              </div>
-            </div>
-          </div>
-
           <div>
             <div className="flex items-center space-x-3 mb-3 ">
               <IoLogoJavascript className="text-4xl font-extrabold" />
@@ -94,17 +84,6 @@ const Experience = () => {
             </div>
           </div>
 
-          <div>
-            <div className="flex items-center space-x-3 mb-3 ">
-              <SiTailwindcss className="text-4xl font-extrabold" />
-              <p className="font-bold">Tailwind CSS</p>
-            </div>
-            <div className="bg-gray-400 rounded-md">
-              <div className="bg-orange-400 w-64 md:w-[530px] rounded-md text-orange-800 font-bold text-right">
-                95%
-              </div>
-            </div>
-          </div>
           <div>
             <div className="flex items-center space-x-3 mb-3 ">
               <IoLogoCss3 className="text-4xl font-extrabold" />
