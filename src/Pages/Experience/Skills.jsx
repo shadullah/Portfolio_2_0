@@ -5,10 +5,37 @@ import { SiTailwindcss } from "react-icons/si";
 const Skills = () => {
   return (
     <div>
-      <div className="frontend block md:flex justify-between items-center m-3 space-x-6">
-        <div className="w-1/2 flex justify-center items-center bg-cyan-600 p-12">
-          <p className="text-center text-7xl font-bold text-white">UI</p>
+      <div className="languages block md:flex justify-between items-center m-3 space-x-6">
+        <div className="w-1/2 flex justify-center items-center p-12">
+          <p className="text-center text-5xl font-bold text-white">Languages</p>
         </div>
+        <div className="w-1/2 space-y-4">
+          <div className="block md:flex justify-between space-x-4 text-center text-white">
+            <div className="mb-3 bg-violet-500 p-12 w-1/2 ">
+              <p className="font-bold text-3xl">C</p>
+            </div>
+            <div className="mb-3 bg-teal-500 p-12 w-1/2">
+              <p className="font-bold text-3xl">C++</p>
+            </div>
+          </div>
+          <div className="block md:flex justify-between space-x-4 text-center text-white">
+            <div className="mb-3 bg-yellow-500 p-12 w-1/2 ">
+              <p className="font-bold text-3xl">Javascript</p>
+            </div>
+            <div className="mb-3 bg-cyan-500 p-12 w-1/2">
+              <p className="font-bold text-3xl">Typescript</p>
+            </div>
+          </div>
+          <div className="block md:flex justify-center space-x-4 text-center text-white">
+            <div className="mb-3 bg-blue-500 p-12 w-1/2 ">
+              <p className="font-bold text-3xl">Python</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* frontend start */}
+      <div className="frontend block md:flex justify-between items-center m-3 space-x-6">
         <div className="w-1/2 space-y-4">
           <div>
             <div className="flex items-center space-x-3 mb-3 ">
@@ -77,6 +104,9 @@ const Skills = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="w-1/2 flex justify-center items-center p-12">
+          <p className="text-center text-7xl font-bold text-white">Frontend</p>
         </div>
       </div>
     </div>

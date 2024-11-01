@@ -1,12 +1,7 @@
 import { FaNodeJs } from "react-icons/fa";
 import { IoLogoCss3, IoLogoJavascript, IoLogoPython } from "react-icons/io";
 import { RiArrowDropRightFill } from "react-icons/ri";
-import {
-  SiDjango,
-  SiMongodb,
-  SiPostgresql,
-  SiTailwindcss,
-} from "react-icons/si";
+import { SiDjango, SiMongodb, SiPostgresql } from "react-icons/si";
 import Skills from "./Skills";
 
 const Experience = () => {
