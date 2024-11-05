@@ -15,31 +15,31 @@ import {
 const Skills = () => {
   return (
     <div>
-      <div className="languages block md:flex justify-between items-center mb-12 space-x-6">
+      <div className="languages block md:flex justify-between items-center mb-12 space-x-2 md:space-x-6">
         <div className="w-1/2 flex justify-center items-center p-12">
-          <p className="text-center text-5xl font-bold dark:text-white text-gray-800">
+          <p className="text-center text-3xl md:text-5xl font-bold dark:text-white text-gray-800">
             Languages
           </p>
         </div>
-        <div className="w-1/2 space-y-4">
+        <div className="w-full md:w-1/2 space-y-4">
           <div className="block md:flex justify-between space-x-4 text-center text-white">
-            <div className="mb-3 bg-violet-500 p-12 w-1/2 ">
+            <div className="mb-3 bg-violet-500 p-6 md:p-12 w-1/2 ">
               <p className="font-bold text-3xl">C</p>
             </div>
-            <div className="mb-3 bg-teal-500 p-12 w-1/2">
+            <div className="mb-3 bg-teal-500 p-6 md:p-12 w-1/2">
               <p className="font-bold text-3xl">C++</p>
             </div>
           </div>
           <div className="block md:flex justify-between space-x-4 text-center text-white">
-            <div className="mb-3 bg-yellow-500 p-12 w-1/2 ">
+            <div className="mb-3 bg-yellow-500 p-6 md:p-12 w-full md:w-1/2 ">
               <p className="font-bold text-3xl">Javascript</p>
             </div>
-            <div className="mb-3 bg-cyan-500 p-12 w-1/2">
+            <div className="mb-3 bg-cyan-500 p-6 md:p-12 w-full md:w-1/2">
               <p className="font-bold text-3xl">Typescript</p>
             </div>
           </div>
           <div className="block md:flex justify-center space-x-4 text-center text-white">
-            <div className="mb-3 bg-blue-500 p-12 w-1/2 ">
+            <div className="mb-3 bg-blue-500 p-6 md:p-12 w-full md:w-1/2 ">
               <p className="font-bold text-3xl">Python</p>
             </div>
           </div>
@@ -118,7 +118,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="w-1/2 flex justify-center items-center p-12">
-          <p className="text-center text-7xl font-bold dark:text-white text-gray-800">
+          <p className="text-center text-4xl md:text-7xl font-bold dark:text-white text-gray-800">
             Frontend
           </p>
         </div>
@@ -127,7 +127,7 @@ const Skills = () => {
       {/* backend skills */}
       <div className="frontend block md:flex justify-between items-center my-12 space-x-6">
         <div className="w-1/2 flex justify-center items-center p-12">
-          <p className="text-center text-7xl font-bold dark:text-white text-gray-800">
+          <p className="text-center text-4xl md:text-7xl font-bold dark:text-white text-gray-800">
             Backend
           </p>
         </div>
@@ -253,7 +253,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="w-1/2 flex justify-center items-center p-12">
-          <p className="text-center text-7xl font-bold dark:text-white text-gray-800">
+          <p className="text-center text-4xl md:text-7xl font-bold dark:text-white text-gray-800">
             Database
           </p>
         </div>
