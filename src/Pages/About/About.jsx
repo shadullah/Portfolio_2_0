@@ -120,7 +120,7 @@ const About = () => {
                 <div className=" text-green-400 text-xs md:text-2xl">
                   B.Sc in Department of Mathematics
                 </div>
-                <div className="item-title text-xl md:text-4xl">
+                <div className="item-title dark:text-white text-gray-800 text-xl md:text-4xl">
                   Shahjalal University of Science & Technology
                 </div>
               </li>
@@ -128,7 +128,7 @@ const About = () => {
                 <div className="text-green-400 text-xs md:text-2xl">
                   Intermediate Science
                 </div>
-                <div className="item-title text-xl md:text-4xl">
+                <div className="item-title text-black dark:text-white text-xl md:text-4xl">
                   BAF Shaheen College Dhaka
                 </div>
               </li>
