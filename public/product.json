@@ -1,6 +1,18 @@
 [
     {
       "id": 1,
+      "name": "Lazz Pharma",
+      "img": "https://i.ibb.co.com/bRvXVNx/lazz.png",
+      "desc": "Full stack e-commerce project about pharmacautical store",
+      "live": "https://e-commerce-front-blond-three.vercel.app/",
+      "client": "https://github.com/shadullah/e-commerce-front",
+      "one": "Authentication with roles and JWT used for accessToken & refreshToken",
+      "two": "Users can add to cart, remove from cart, order products providing details",
+      "three": "Search implementation, filtering products, Implemented payment gateway with SSLcommerze",
+      "techs": "React, NextJs, Typescript, Tailwind Css, Aceternity UI, NodeJs,MongoDB, Mongoose, React-icons, JWT, Node-mailer,SSLCommerze"
+    },
+    {
+      "id": 2,
       "name": "Work Notes",
       "img": "https://i.ibb.co/998kRV2/work-notes-ss.png",
       "desc": "Full stack project about Taking Notes",
@@ -12,7 +24,7 @@
       "techs": "Tailwind css, React, React hook form, Django, Django Rest Framwork, PostgreSQL"
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Electro Mart",
       "img": "https://i.ibb.co/7CBY224/electro-ss.png",
       "desc": "Full stack project on E-commerce",
@@ -24,7 +36,7 @@
       "techs": "Tailwind css, React, SwiperJs, Django, Django Rest Framwork, PostgreSQL"
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Train Ticket System",
       "img": "https://i.ibb.co/vDB5cWP/train.png",
       "desc": "Full stack project MVT Pattern",
@@ -36,7 +48,7 @@
       "techs": "html, Tailwind css, Django, Django-forms"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Emtiyaz Apparels Limited",
       "img": "https://i.ibb.co/r73Gc1N/eal.png",
       "desc": "Frontend Project of a Garments Sector",
@@ -47,7 +59,7 @@
       "techs": "Tailwind css, React, SwiperJs, React-icons, React router dom, EmailJs, AOS"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Homies",
       "img": "https://i.ibb.co/30ShQgv/homies.png",
       "desc": "Full stack project about Manufacturing Products",
@@ -59,7 +71,7 @@
       "techs": "html, css, Tailwind css, React, Firebase Authentication, ExpressJs, MongoDB, Heroku, React hook form, React Query, Stripe."
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Dr-Sarkar",
       "img": "https://i.ibb.co/yPk1dbP/drsarkar.png",
       "desc": "Portfolio for an individual service provider",
@@ -72,7 +84,7 @@
       "techs": "html, css, Bootstrap, React, Firebase Authentication, React Router."
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "Car Hunter",
       "img": "https://i.ibb.co/pwG3dXk/car-hunter.png",
       "desc": "Reviewing site for Cars. built with React-router.",
