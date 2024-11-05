@@ -266,7 +266,7 @@ const Skills = () => {
             Tools
           </p>
         </div>
-        <div className="flex justify-between">
+        <div className="block md:flex justify-between space-y-3 text-center">
           <p className="font-bold text-3xl">Cloudinary</p>
           <p className="font-bold text-3xl">Github</p>
           <p className="font-bold text-3xl">Vs Code</p>
