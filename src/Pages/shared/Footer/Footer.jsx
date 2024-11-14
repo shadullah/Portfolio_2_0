@@ -3,7 +3,7 @@ const Footer = () => {
     <div>
       <p
         // style={{ color: "#060B0C" }}
-        className="text-gray-400 font-bold hover:text-cyan-600 py-6 text-center"
+        className="text-gray-900 font-bold hover:text-cyan-600 py-6 text-center"
       >
         Built & Designed By{" "}
         <span className="">
