@@ -12,7 +12,7 @@ const Banner = () => {
 
   const handleDownloadClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1_cdjfbe5UMUBxIa6R_jvCFGppjPgaXpT/view",
+      "https://drive.google.com/file/d/14ptUKQPQqSNd8RoSFp4soi9B5flzCRLT/view?usp=sharing",
       "_blank"
     );
   };
@@ -86,12 +86,12 @@ const Banner = () => {
             <div>
               <div className="flex justify-center text-xl md:text-3xl space-x-12 my-12">
                 <a href="https://www.facebook.com/" target="blank">
-                  <button className=" hover:text-blue-400 transition duration-500">
+                  <button className=" hover:text-blue-600 transition duration-500">
                     <FaFacebookSquare />
                   </button>
                 </a>
                 <a href="https://github.com/shadullah" target="blank">
-                  <button className=" hover:text-blue-400 transition duration-500">
+                  <button className=" hover:text-gray-400 transition duration-500">
                     <FaGithub />
                   </button>
                 </a>
